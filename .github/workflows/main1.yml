@@ -30,7 +30,7 @@ jobs:
 
       - name: Install script dependencies
         working-directory: ./scripts
-        run: npm install   # or npm ci if you have a package-lock.json
+        run:  npm install   # or npm ci if you have a package-lock.json
 
       - name: Step 2 - Create new Ethereum Identity
         run: node scripts/createNewEthereumIdentity.js
